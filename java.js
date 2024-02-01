@@ -1,48 +1,33 @@
-//1. Display an alert with a secret message
+// 1. Display an alert with a secret message
+alert("Vault has been secured");
 
-//2. First code will be summed up to 10
+// 2. First code will be summed up to 10
+// Input firstNumber
+let firstNumber = 5;
 
-//Input firstNumber
+// Input secondNumber
+let secondNumber = 5;
 
-let a = 5;
+// Set sum = firstNumber + secondNumber
+let sum = firstNumber + secondNumber;
 
-//Input secondNumber
+// Output sum
+console.log("Sum:", sum);
 
-let b = 5;
-
-//Set sum = firstNumber + secondNumber
-
-let sum = a + b;
-
-//Output sum
-
-console.log("sum:", sum);
-
-//3. Second code will be multiplied to 40
-
-let c = 8
+// 3. Second code will be multiplied to 40
+let thirdNumber = 8;
 
 // Multiplication
-
-let product = c * a;
+let product = thirdNumber * firstNumber;
 
 // Output product
-
 console.log("Product:", product);
 
-//4. Third code will be divided to remainder 39
-
-//Division (Remainder)
-
+// 4. Third code will be divided to remainder 39
+// Division (Remainder)
 let dividend = 195;
-
 let divisor = 5;
 
-//Output remainder
-
-let remainder = dividend / divisor;
-
+// Output remainder
+let remainder = dividend % divisor;
 console.log("Remainder:", remainder);
-
-// Vault has been secured
-
